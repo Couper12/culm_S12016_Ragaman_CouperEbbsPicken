@@ -1,0 +1,13 @@
+<Window x:Class="cul_S1Ragaman_CouperEbbsPicken.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cul_S1Ragaman_CouperEbbsPicken"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="600">
+    <Canvas>
+        <Button x:Name="btnRun" Height="57" Width="76" Canvas.Left="479" Canvas.Top="123" Content="Run" Click="btnRun_Click"></Button>
+        <Label x:Name="lblOutput" Height="26" Width="81" Canvas.Top="36"></Label>
+    </Canvas>
+</Window>
